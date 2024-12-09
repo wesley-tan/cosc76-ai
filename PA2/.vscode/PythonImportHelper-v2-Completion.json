@@ -1,0 +1,429 @@
+[
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Maze",
+        "importPath": "Maze",
+        "description": "Maze",
+        "isExtraImport": true,
+        "detail": "Maze",
+        "documentation": {}
+    },
+    {
+        "label": "Maze",
+        "importPath": "Maze",
+        "description": "Maze",
+        "isExtraImport": true,
+        "detail": "Maze",
+        "documentation": {}
+    },
+    {
+        "label": "Maze",
+        "importPath": "Maze",
+        "description": "Maze",
+        "isExtraImport": true,
+        "detail": "Maze",
+        "documentation": {}
+    },
+    {
+        "label": "Maze",
+        "importPath": "Maze",
+        "description": "Maze",
+        "isExtraImport": true,
+        "detail": "Maze",
+        "documentation": {}
+    },
+    {
+        "label": "SearchSolution",
+        "importPath": "SearchSolution",
+        "description": "SearchSolution",
+        "isExtraImport": true,
+        "detail": "SearchSolution",
+        "documentation": {}
+    },
+    {
+        "label": "heappush",
+        "importPath": "heapq",
+        "description": "heapq",
+        "isExtraImport": true,
+        "detail": "heapq",
+        "documentation": {}
+    },
+    {
+        "label": "heappop",
+        "importPath": "heapq",
+        "description": "heapq",
+        "isExtraImport": true,
+        "detail": "heapq",
+        "documentation": {}
+    },
+    {
+        "label": "MazeworldProblem",
+        "importPath": "MazeworldProblem",
+        "description": "MazeworldProblem",
+        "isExtraImport": true,
+        "detail": "MazeworldProblem",
+        "documentation": {}
+    },
+    {
+        "label": "astar_search",
+        "importPath": "astar_search",
+        "description": "astar_search",
+        "isExtraImport": true,
+        "detail": "astar_search",
+        "documentation": {}
+    },
+    {
+        "label": "astar_search",
+        "importPath": "astar_search",
+        "description": "astar_search",
+        "isExtraImport": true,
+        "detail": "astar_search",
+        "documentation": {}
+    },
+    {
+        "label": "SensorlessProblem",
+        "importPath": "SensorlessProblem",
+        "description": "SensorlessProblem",
+        "isExtraImport": true,
+        "detail": "SensorlessProblem",
+        "documentation": {}
+    },
+    {
+        "label": "Maze",
+        "kind": 6,
+        "importPath": "pa2-mazeworld.Maze",
+        "description": "pa2-mazeworld.Maze",
+        "peekOfCode": "class Maze:\n    # internal structure:\n    #   self.walls: set of tuples with wall locations\n    #   self.width: number of columns\n    #   self.rows\n    def __init__(self, mazefilename):\n        self.robotloc = []\n        # read the maze file into a list of strings\n        f = open(mazefilename)\n        lines = []",
+        "detail": "pa2-mazeworld.Maze",
+        "documentation": {}
+    },
+    {
+        "label": "create_render_list",
+        "kind": 2,
+        "importPath": "pa2-mazeworld.Maze",
+        "description": "pa2-mazeworld.Maze",
+        "peekOfCode": "def create_render_list(self):\n    renderlist = list(self.map)\n    for robot_number in range(len(self.robotloc) // 2):\n        x = self.robotloc[robot_number * 2]\n        y = self.robotloc[robot_number * 2 + 1]\n        if x == -1 and y == -1:\n            continue  # Skip rendering for uncertain location\n        renderlist[self.index(x, y)] = robotchar(robot_number)\n    return renderlist\n    def __str__(self):",
+        "detail": "pa2-mazeworld.Maze",
+        "documentation": {}
+    },
+    {
+        "label": "robotchar",
+        "kind": 2,
+        "importPath": "pa2-mazeworld.Maze",
+        "description": "pa2-mazeworld.Maze",
+        "peekOfCode": "def robotchar(robot_number):\n    return chr(ord(\"A\") + robot_number)\n# Some test code\nif __name__ == \"__main__\":\n    test_maze1 = Maze(\"maze1.maz\")\n    print(test_maze1)\n    test_maze2 = Maze(\"maze2.maz\")\n    print(test_maze2)\n    test_maze3 = Maze(\"maze3.maz\")\n    print(test_maze3)",
+        "detail": "pa2-mazeworld.Maze",
+        "documentation": {}
+    },
+    {
+        "label": "MazeworldProblem",
+        "kind": 6,
+        "importPath": "pa2-mazeworld.MazeworldProblem",
+        "description": "pa2-mazeworld.MazeworldProblem",
+        "peekOfCode": "class MazeworldProblem:\n    ## you write the constructor, and whatever methods your astar function needs\n    def __init__(self, maze, goal_locations):\n        self.maze = maze\n        self.goal_locations = goal_locations\n        self.start_state = self.create_start_state()\n        self.num_robots = max(1, len(maze.robotloc) // 2)  # Ensure at least 1 robot\n    def create_start_state(self):\n        # Include the turn (0) and all robot locations\n        if not self.maze.robotloc:",
+        "detail": "pa2-mazeworld.MazeworldProblem",
+        "documentation": {}
+    },
+    {
+        "label": "SearchSolution",
+        "kind": 6,
+        "importPath": "pa2-mazeworld.SearchSolution",
+        "description": "pa2-mazeworld.SearchSolution",
+        "peekOfCode": "class SearchSolution:\n    def __init__(self, problem, search_method):\n        self.problem_name = str(problem)\n        self.search_method = search_method\n        self.path = []\n        self.nodes_visited = 0\n        self.cost = 0\n    def __str__(self):\n        string = \"----\\n\"\n        string += \"{:s}\\n\"",
+        "detail": "pa2-mazeworld.SearchSolution",
+        "documentation": {}
+    },
+    {
+        "label": "SensorlessProblem",
+        "kind": 6,
+        "importPath": "pa2-mazeworld.SensorlessProblem",
+        "description": "pa2-mazeworld.SensorlessProblem",
+        "peekOfCode": "class SensorlessProblem:\n    def __init__(self, maze):\n        self.maze = maze\n        self.start_state = self.create_start_state()\n    def create_start_state(self):\n        # Create a set of all possible initial positions\n        return frozenset((x, y) for x in range(self.maze.width) \n                         for y in range(self.maze.height) \n                         if self.maze.is_floor(x, y))\n    def get_successors(self, state):",
+        "detail": "pa2-mazeworld.SensorlessProblem",
+        "documentation": {}
+    },
+    {
+        "label": "AstarNode",
+        "kind": 6,
+        "importPath": "pa2-mazeworld.astar_search",
+        "description": "pa2-mazeworld.astar_search",
+        "peekOfCode": "class AstarNode:\n    # each search node except the root has a parent node\n    # and all search nodes wrap a state object\n    def __init__(self, state, heuristic, parent=None, transition_cost=0):\n        self.state = state\n        self.heuristic = heuristic\n        self.parent = parent\n        self.transition_cost = transition_cost\n    def priority(self):\n        return self.transition_cost + self.heuristic",
+        "detail": "pa2-mazeworld.astar_search",
+        "documentation": {}
+    },
+    {
+        "label": "backchain",
+        "kind": 2,
+        "importPath": "pa2-mazeworld.astar_search",
+        "description": "pa2-mazeworld.astar_search",
+        "peekOfCode": "def backchain(node):\n    result = []\n    current = node\n    while current:\n        result.append(current.state)\n        current = current.parent\n    result.reverse()\n    return result\ndef astar_search(search_problem, heuristic_fn):\n    start_node = AstarNode(search_problem.start_state, heuristic_fn(search_problem.start_state))",
+        "detail": "pa2-mazeworld.astar_search",
+        "documentation": {}
+    },
+    {
+        "label": "astar_search",
+        "kind": 2,
+        "importPath": "pa2-mazeworld.astar_search",
+        "description": "pa2-mazeworld.astar_search",
+        "peekOfCode": "def astar_search(search_problem, heuristic_fn):\n    start_node = AstarNode(search_problem.start_state, heuristic_fn(search_problem.start_state))\n    pqueue = []\n    heappush(pqueue, start_node)\n    solution = SearchSolution(search_problem, \"Astar with heuristic \" + heuristic_fn.__name__)\n    visited_cost = {}\n    visited_cost[start_node.state] = 0\n    while pqueue:\n        current_node = heappop(pqueue)\n        solution.nodes_visited += 1",
+        "detail": "pa2-mazeworld.astar_search",
+        "documentation": {}
+    },
+    {
+        "label": "null_heuristic",
+        "kind": 2,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "def null_heuristic(state):\n    return 0\n# Manhattan distance heuristic\ndef manhattan_heuristic(state):\n    goal = test_mp.goal_locations\n    total_distance = 0\n    for i in range(1, len(state), 2):\n        robot_x, robot_y = state[i], state[i+1]\n        goal_x, goal_y = goal[i-1], goal[i]\n        total_distance += abs(robot_x - goal_x) + abs(robot_y - goal_y)",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "manhattan_heuristic",
+        "kind": 2,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "def manhattan_heuristic(state):\n    goal = test_mp.goal_locations\n    total_distance = 0\n    for i in range(1, len(state), 2):\n        robot_x, robot_y = state[i], state[i+1]\n        goal_x, goal_y = goal[i-1], goal[i]\n        total_distance += abs(robot_x - goal_x) + abs(robot_y - goal_y)\n    return total_distance\n# Test problems\n# Test case 1: Original test",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "test_maze3",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "test_maze3 = Maze(\"maze3.maz\")\ntest_mp = MazeworldProblem(test_maze3, (1, 4, 1, 3, 1, 2))\nprint(\"Test case 1:\")\nprint(\"Maze:\")\nprint(test_maze3)\nprint(\"Start state:\", test_mp.start_state)\nprint(\"Successors of start state:\", test_mp.get_successors(test_mp.start_state))\n# Test case 2: Single robot\ntest_maze1 = Maze(\"maze1.maz\")\ntest_mp_single = MazeworldProblem(test_maze1, (3, 3))",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "test_mp",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "test_mp = MazeworldProblem(test_maze3, (1, 4, 1, 3, 1, 2))\nprint(\"Test case 1:\")\nprint(\"Maze:\")\nprint(test_maze3)\nprint(\"Start state:\", test_mp.start_state)\nprint(\"Successors of start state:\", test_mp.get_successors(test_mp.start_state))\n# Test case 2: Single robot\ntest_maze1 = Maze(\"maze1.maz\")\ntest_mp_single = MazeworldProblem(test_maze1, (3, 3))\nprint(\"\\nTest case 2 (Single robot):\")",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "test_maze1",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "test_maze1 = Maze(\"maze1.maz\")\ntest_mp_single = MazeworldProblem(test_maze1, (3, 3))\nprint(\"\\nTest case 2 (Single robot):\")\nprint(\"Start state:\", test_mp_single.start_state)\nprint(\"Successors of start state:\", test_mp_single.get_successors(test_mp_single.start_state))\n# Test case 3: Multiple robots\ntest_maze_multi = Maze(\"maze_multi_robot.maz\")\ntest_mp_multi = MazeworldProblem(test_maze_multi, (3, 3, 1, 1, 2, 2))\nprint(\"\\nTest case 3 (Multiple robots):\")\nprint(\"Start state:\", test_mp_multi.start_state)",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "test_mp_single",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "test_mp_single = MazeworldProblem(test_maze1, (3, 3))\nprint(\"\\nTest case 2 (Single robot):\")\nprint(\"Start state:\", test_mp_single.start_state)\nprint(\"Successors of start state:\", test_mp_single.get_successors(test_mp_single.start_state))\n# Test case 3: Multiple robots\ntest_maze_multi = Maze(\"maze_multi_robot.maz\")\ntest_mp_multi = MazeworldProblem(test_maze_multi, (3, 3, 1, 1, 2, 2))\nprint(\"\\nTest case 3 (Multiple robots):\")\nprint(\"Start state:\", test_mp_multi.start_state)\nprint(\"Successors of start state:\", test_mp_multi.get_successors(test_mp_multi.start_state))",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "test_maze_multi",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "test_maze_multi = Maze(\"maze_multi_robot.maz\")\ntest_mp_multi = MazeworldProblem(test_maze_multi, (3, 3, 1, 1, 2, 2))\nprint(\"\\nTest case 3 (Multiple robots):\")\nprint(\"Start state:\", test_mp_multi.start_state)\nprint(\"Successors of start state:\", test_mp_multi.get_successors(test_mp_multi.start_state))\n# Test case 4: Goal state test\nprint(\"\\nTest case 4 (Goal state test):\")\nprint(\"Is start state a goal?\", test_mp.goal_test(test_mp.start_state))\nprint(\"Is goal state a goal?\", test_mp.goal_test((2,) + test_mp.goal_locations))\n# Test case 5: A* search with null heuristic",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "test_mp_multi",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "test_mp_multi = MazeworldProblem(test_maze_multi, (3, 3, 1, 1, 2, 2))\nprint(\"\\nTest case 3 (Multiple robots):\")\nprint(\"Start state:\", test_mp_multi.start_state)\nprint(\"Successors of start state:\", test_mp_multi.get_successors(test_mp_multi.start_state))\n# Test case 4: Goal state test\nprint(\"\\nTest case 4 (Goal state test):\")\nprint(\"Is start state a goal?\", test_mp.goal_test(test_mp.start_state))\nprint(\"Is goal state a goal?\", test_mp.goal_test((2,) + test_mp.goal_locations))\n# Test case 5: A* search with null heuristic\nprint(\"\\nTest case 5 (A* search with null heuristic):\")",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "result_null",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "result_null = astar_search(test_mp, null_heuristic)\nprint(result_null)\n# Test case 6: A* search with Manhattan distance heuristic\nprint(\"\\nTest case 6 (A* search with Manhattan distance heuristic):\")\nresult_manhattan = astar_search(test_mp, manhattan_heuristic)\nprint(result_manhattan)\n# Test case 7: Unsolvable problem\ntest_maze_unsolvable = Maze(\"maze2.maz\")\ntest_mp_unsolvable = MazeworldProblem(test_maze_unsolvable, (3, 3))\nprint(\"\\nTest case 7 (Unsolvable problem):\")",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "result_manhattan",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "result_manhattan = astar_search(test_mp, manhattan_heuristic)\nprint(result_manhattan)\n# Test case 7: Unsolvable problem\ntest_maze_unsolvable = Maze(\"maze2.maz\")\ntest_mp_unsolvable = MazeworldProblem(test_maze_unsolvable, (3, 3))\nprint(\"\\nTest case 7 (Unsolvable problem):\")\nresult_unsolvable = astar_search(test_mp_unsolvable, null_heuristic)\nprint(result_unsolvable)\n# Animate the solution path for a successful search\nif result_manhattan.path:",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "test_maze_unsolvable",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "test_maze_unsolvable = Maze(\"maze2.maz\")\ntest_mp_unsolvable = MazeworldProblem(test_maze_unsolvable, (3, 3))\nprint(\"\\nTest case 7 (Unsolvable problem):\")\nresult_unsolvable = astar_search(test_mp_unsolvable, null_heuristic)\nprint(result_unsolvable)\n# Animate the solution path for a successful search\nif result_manhattan.path:\n    print(\"\\nAnimating solution path:\")\n    test_mp.animate_path(result_manhattan.path)",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "test_mp_unsolvable",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "test_mp_unsolvable = MazeworldProblem(test_maze_unsolvable, (3, 3))\nprint(\"\\nTest case 7 (Unsolvable problem):\")\nresult_unsolvable = astar_search(test_mp_unsolvable, null_heuristic)\nprint(result_unsolvable)\n# Animate the solution path for a successful search\nif result_manhattan.path:\n    print(\"\\nAnimating solution path:\")\n    test_mp.animate_path(result_manhattan.path)",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "result_unsolvable",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_mazeworld",
+        "description": "pa2-mazeworld.test_mazeworld",
+        "peekOfCode": "result_unsolvable = astar_search(test_mp_unsolvable, null_heuristic)\nprint(result_unsolvable)\n# Animate the solution path for a successful search\nif result_manhattan.path:\n    print(\"\\nAnimating solution path:\")\n    test_mp.animate_path(result_manhattan.path)",
+        "detail": "pa2-mazeworld.test_mazeworld",
+        "documentation": {}
+    },
+    {
+        "label": "null_heuristic",
+        "kind": 2,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "def null_heuristic(state):\n    return 0\n# Test case 1: Basic test with maze3\ntest_maze3 = Maze(\"maze3.maz\")\ntest_sp3 = SensorlessProblem(test_maze3)\nprint(\"Test case 1: maze3\")\nprint(\"Initial state:\", test_sp3.start_state)\nprint(\"Successors of initial state:\", test_sp3.get_successors(test_sp3.start_state))\n# Run A* search with null heuristic (essentially uniform-cost search)\nresult3_null = astar_search(test_sp3, null_heuristic)",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "test_maze3",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "test_maze3 = Maze(\"maze3.maz\")\ntest_sp3 = SensorlessProblem(test_maze3)\nprint(\"Test case 1: maze3\")\nprint(\"Initial state:\", test_sp3.start_state)\nprint(\"Successors of initial state:\", test_sp3.get_successors(test_sp3.start_state))\n# Run A* search with null heuristic (essentially uniform-cost search)\nresult3_null = astar_search(test_sp3, null_heuristic)\nprint(\"A* search with null heuristic:\")\nprint(result3_null)\n# Run A* search with custom heuristic",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "test_sp3",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "test_sp3 = SensorlessProblem(test_maze3)\nprint(\"Test case 1: maze3\")\nprint(\"Initial state:\", test_sp3.start_state)\nprint(\"Successors of initial state:\", test_sp3.get_successors(test_sp3.start_state))\n# Run A* search with null heuristic (essentially uniform-cost search)\nresult3_null = astar_search(test_sp3, null_heuristic)\nprint(\"A* search with null heuristic:\")\nprint(result3_null)\n# Run A* search with custom heuristic\nresult3_custom = astar_search(test_sp3, test_sp3.custom_heuristic)",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "result3_null",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "result3_null = astar_search(test_sp3, null_heuristic)\nprint(\"A* search with null heuristic:\")\nprint(result3_null)\n# Run A* search with custom heuristic\nresult3_custom = astar_search(test_sp3, test_sp3.custom_heuristic)\nprint(\"A* search with custom heuristic:\")\nprint(result3_custom)\n# Test case 2: Smaller maze (maze1)\ntest_maze1 = Maze(\"maze1.maz\")\ntest_sp1 = SensorlessProblem(test_maze1)",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "result3_custom",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "result3_custom = astar_search(test_sp3, test_sp3.custom_heuristic)\nprint(\"A* search with custom heuristic:\")\nprint(result3_custom)\n# Test case 2: Smaller maze (maze1)\ntest_maze1 = Maze(\"maze1.maz\")\ntest_sp1 = SensorlessProblem(test_maze1)\nprint(\"\\nTest case 2: maze1\")\nprint(\"Initial state:\", test_sp1.start_state)\nprint(\"Successors of initial state:\", test_sp1.get_successors(test_sp1.start_state))\nresult1_null = astar_search(test_sp1, null_heuristic)",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "test_maze1",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "test_maze1 = Maze(\"maze1.maz\")\ntest_sp1 = SensorlessProblem(test_maze1)\nprint(\"\\nTest case 2: maze1\")\nprint(\"Initial state:\", test_sp1.start_state)\nprint(\"Successors of initial state:\", test_sp1.get_successors(test_sp1.start_state))\nresult1_null = astar_search(test_sp1, null_heuristic)\nprint(\"A* search with null heuristic:\")\nprint(result1_null)\nresult1_custom = astar_search(test_sp1, test_sp1.custom_heuristic)\nprint(\"A* search with custom heuristic:\")",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "test_sp1",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "test_sp1 = SensorlessProblem(test_maze1)\nprint(\"\\nTest case 2: maze1\")\nprint(\"Initial state:\", test_sp1.start_state)\nprint(\"Successors of initial state:\", test_sp1.get_successors(test_sp1.start_state))\nresult1_null = astar_search(test_sp1, null_heuristic)\nprint(\"A* search with null heuristic:\")\nprint(result1_null)\nresult1_custom = astar_search(test_sp1, test_sp1.custom_heuristic)\nprint(\"A* search with custom heuristic:\")\nprint(result1_custom)",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "result1_null",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "result1_null = astar_search(test_sp1, null_heuristic)\nprint(\"A* search with null heuristic:\")\nprint(result1_null)\nresult1_custom = astar_search(test_sp1, test_sp1.custom_heuristic)\nprint(\"A* search with custom heuristic:\")\nprint(result1_custom)\n# Test case 3: Medium-sized maze (maze2)\ntest_maze2 = Maze(\"maze2.maz\")\ntest_sp2 = SensorlessProblem(test_maze2)\nprint(\"\\nTest case 3: maze2\")",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "result1_custom",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "result1_custom = astar_search(test_sp1, test_sp1.custom_heuristic)\nprint(\"A* search with custom heuristic:\")\nprint(result1_custom)\n# Test case 3: Medium-sized maze (maze2)\ntest_maze2 = Maze(\"maze2.maz\")\ntest_sp2 = SensorlessProblem(test_maze2)\nprint(\"\\nTest case 3: maze2\")\nprint(\"Initial state:\", test_sp2.start_state)\nprint(\"Successors of initial state:\", test_sp2.get_successors(test_sp2.start_state))\nresult2_null = astar_search(test_sp2, null_heuristic)",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "test_maze2",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "test_maze2 = Maze(\"maze2.maz\")\ntest_sp2 = SensorlessProblem(test_maze2)\nprint(\"\\nTest case 3: maze2\")\nprint(\"Initial state:\", test_sp2.start_state)\nprint(\"Successors of initial state:\", test_sp2.get_successors(test_sp2.start_state))\nresult2_null = astar_search(test_sp2, null_heuristic)\nprint(\"A* search with null heuristic:\")\nprint(result2_null)\nresult2_custom = astar_search(test_sp2, test_sp2.custom_heuristic)\nprint(\"A* search with custom heuristic:\")",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "test_sp2",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "test_sp2 = SensorlessProblem(test_maze2)\nprint(\"\\nTest case 3: maze2\")\nprint(\"Initial state:\", test_sp2.start_state)\nprint(\"Successors of initial state:\", test_sp2.get_successors(test_sp2.start_state))\nresult2_null = astar_search(test_sp2, null_heuristic)\nprint(\"A* search with null heuristic:\")\nprint(result2_null)\nresult2_custom = astar_search(test_sp2, test_sp2.custom_heuristic)\nprint(\"A* search with custom heuristic:\")\nprint(result2_custom)",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "result2_null",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "result2_null = astar_search(test_sp2, null_heuristic)\nprint(\"A* search with null heuristic:\")\nprint(result2_null)\nresult2_custom = astar_search(test_sp2, test_sp2.custom_heuristic)\nprint(\"A* search with custom heuristic:\")\nprint(result2_custom)\n# Compare performance\nprint(\"\\nPerformance Comparison:\")\nprint(\"maze1 - Null Heuristic Nodes Visited:\", result1_null.nodes_visited)\nprint(\"maze1 - Custom Heuristic Nodes Visited:\", result1_custom.nodes_visited)",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    },
+    {
+        "label": "result2_custom",
+        "kind": 5,
+        "importPath": "pa2-mazeworld.test_sensorless",
+        "description": "pa2-mazeworld.test_sensorless",
+        "peekOfCode": "result2_custom = astar_search(test_sp2, test_sp2.custom_heuristic)\nprint(\"A* search with custom heuristic:\")\nprint(result2_custom)\n# Compare performance\nprint(\"\\nPerformance Comparison:\")\nprint(\"maze1 - Null Heuristic Nodes Visited:\", result1_null.nodes_visited)\nprint(\"maze1 - Custom Heuristic Nodes Visited:\", result1_custom.nodes_visited)\nprint(\"maze2 - Null Heuristic Nodes Visited:\", result2_null.nodes_visited)\nprint(\"maze2 - Custom Heuristic Nodes Visited:\", result2_custom.nodes_visited)\nprint(\"maze3 - Null Heuristic Nodes Visited:\", result3_null.nodes_visited)",
+        "detail": "pa2-mazeworld.test_sensorless",
+        "documentation": {}
+    }
+]

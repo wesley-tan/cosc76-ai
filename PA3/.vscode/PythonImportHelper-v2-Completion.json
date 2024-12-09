@@ -1,0 +1,465 @@
+[
+    {
+        "label": "chess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "chess",
+        "description": "chess",
+        "detail": "chess",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "chess.engine",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "chess.engine",
+        "description": "chess.engine",
+        "detail": "chess.engine",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtSvg",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QWidget",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "chess,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "chess.",
+        "description": "chess.",
+        "detail": "chess.",
+        "documentation": {}
+    },
+    {
+        "label": "RandomAI",
+        "importPath": "RandomAI",
+        "description": "RandomAI",
+        "isExtraImport": true,
+        "detail": "RandomAI",
+        "documentation": {}
+    },
+    {
+        "label": "RandomAI",
+        "importPath": "RandomAI",
+        "description": "RandomAI",
+        "isExtraImport": true,
+        "detail": "RandomAI",
+        "documentation": {}
+    },
+    {
+        "label": "MinimaxAI",
+        "importPath": "MinimaxAI",
+        "description": "MinimaxAI",
+        "isExtraImport": true,
+        "detail": "MinimaxAI",
+        "documentation": {}
+    },
+    {
+        "label": "MinimaxAI",
+        "importPath": "MinimaxAI",
+        "description": "MinimaxAI",
+        "isExtraImport": true,
+        "detail": "MinimaxAI",
+        "documentation": {}
+    },
+    {
+        "label": "ChessGame",
+        "importPath": "ChessGame",
+        "description": "ChessGame",
+        "isExtraImport": true,
+        "detail": "ChessGame",
+        "documentation": {}
+    },
+    {
+        "label": "ChessGame",
+        "importPath": "ChessGame",
+        "description": "ChessGame",
+        "isExtraImport": true,
+        "detail": "ChessGame",
+        "documentation": {}
+    },
+    {
+        "label": "HumanPlayer",
+        "importPath": "HumanPlayer",
+        "description": "HumanPlayer",
+        "isExtraImport": true,
+        "detail": "HumanPlayer",
+        "documentation": {}
+    },
+    {
+        "label": "HumanPlayer",
+        "importPath": "HumanPlayer",
+        "description": "HumanPlayer",
+        "isExtraImport": true,
+        "detail": "HumanPlayer",
+        "documentation": {}
+    },
+    {
+        "label": "AlphaBetaAI",
+        "importPath": "AlphaBetaAI",
+        "description": "AlphaBetaAI",
+        "isExtraImport": true,
+        "detail": "AlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "AlphaBetaAI",
+        "importPath": "AlphaBetaAI",
+        "description": "AlphaBetaAI",
+        "isExtraImport": true,
+        "detail": "AlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "IterativeDeepeningAI",
+        "importPath": "IterativeDeepeningAI",
+        "description": "IterativeDeepeningAI",
+        "isExtraImport": true,
+        "detail": "IterativeDeepeningAI",
+        "documentation": {}
+    },
+    {
+        "label": "QuiescenceAI",
+        "importPath": "QuiescenceAI",
+        "description": "QuiescenceAI",
+        "isExtraImport": true,
+        "detail": "QuiescenceAI",
+        "documentation": {}
+    },
+    {
+        "label": "ImprovedAlphaBetaAI",
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "isExtraImport": true,
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "EnhancedQAI",
+        "importPath": "EnhancedQAI",
+        "description": "EnhancedQAI",
+        "isExtraImport": true,
+        "detail": "EnhancedQAI",
+        "documentation": {}
+    },
+    {
+        "label": "AlphaBetaAI",
+        "kind": 6,
+        "importPath": "AlphaBetaAI",
+        "description": "AlphaBetaAI",
+        "peekOfCode": "class AlphaBetaAI():\n    # Constants for evaluation\n    PAWN_VALUE = 1\n    KNIGHT_VALUE = 3\n    BISHOP_VALUE = 3\n    ROOK_VALUE = 5\n    QUEEN_VALUE = 9\n    KING_VALUE = 99999\n    CENTRAL_PAWN_BONUS = 20\n    MOBILITY_BONUS = 0.1",
+        "detail": "AlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "ChessGame",
+        "kind": 6,
+        "importPath": "ChessGame",
+        "description": "ChessGame",
+        "peekOfCode": "class ChessGame:\n    def __init__(self, player1, player2):\n        self.board = chess.Board()\n        self.players = [player1, player2]\n    def make_move(self):\n        player = self.players[1 - int(self.board.turn)]\n        move = player.choose_move(self.board)\n        self.board.push(move)  # Make the move\n    def is_game_over(self):\n        return self.board.is_game_over()",
+        "detail": "ChessGame",
+        "documentation": {}
+    },
+    {
+        "label": "EnhancedQAI",
+        "kind": 6,
+        "importPath": "EnhancedQAI",
+        "description": "EnhancedQAI",
+        "peekOfCode": "class EnhancedQAI:\n    # Piece values\n    PIECE_VALUES = {\n        chess.PAWN: 100,\n        chess.KNIGHT: 320,\n        chess.BISHOP: 330,\n        chess.ROOK: 500,\n        chess.QUEEN: 900,\n        chess.KING: 99999\n    }",
+        "detail": "EnhancedQAI",
+        "documentation": {}
+    },
+    {
+        "label": "HumanPlayer",
+        "kind": 6,
+        "importPath": "HumanPlayer",
+        "description": "HumanPlayer",
+        "peekOfCode": "class HumanPlayer():\n    def __init__(self):\n        print(\"Moves can be entered using four characters. For example, d2d4 moves the piece \"\n              \"at d2 to d4.\")\n        pass\n    def choose_move(self, board):\n        moves = list(board.legal_moves)\n        uci_move = None\n        while not uci_move in moves:\n            print(\"Please enter your move: \")",
+        "detail": "HumanPlayer",
+        "documentation": {}
+    },
+    {
+        "label": "ImprovedAlphaBetaAI",
+        "kind": 6,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "class ImprovedAlphaBetaAI():\n    def __init__(self, depth, time_limit=10):\n        self.max_depth = depth\n        self.nodes_visited = 0\n        self.time_limit = time_limit\n        self.transposition_table = {}  # Store positions and their evaluations\n        self.move_history = {}  # Store move scores from previous iterations\n        self.start_time = None\n    def choose_move(self, board):\n        self.nodes_visited = 0",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "PAWN_VALUE",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "PAWN_VALUE = 100\nKNIGHT_VALUE = 320\nBISHOP_VALUE = 330\nROOK_VALUE = 500\nQUEEN_VALUE = 900\nKING_VALUE = 99999\n# Constants for move ordering\nCAPTURE_BONUS = 100\nPROMOTION_BONUS = 90\nCHECK_BONUS = 50",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "KNIGHT_VALUE",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "KNIGHT_VALUE = 320\nBISHOP_VALUE = 330\nROOK_VALUE = 500\nQUEEN_VALUE = 900\nKING_VALUE = 99999\n# Constants for move ordering\nCAPTURE_BONUS = 100\nPROMOTION_BONUS = 90\nCHECK_BONUS = 50\nMOBILITY_MULTIPLIER = 10",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "BISHOP_VALUE",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "BISHOP_VALUE = 330\nROOK_VALUE = 500\nQUEEN_VALUE = 900\nKING_VALUE = 99999\n# Constants for move ordering\nCAPTURE_BONUS = 100\nPROMOTION_BONUS = 90\nCHECK_BONUS = 50\nMOBILITY_MULTIPLIER = 10\nCHECK_PENALTY = 50",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "ROOK_VALUE",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "ROOK_VALUE = 500\nQUEEN_VALUE = 900\nKING_VALUE = 99999\n# Constants for move ordering\nCAPTURE_BONUS = 100\nPROMOTION_BONUS = 90\nCHECK_BONUS = 50\nMOBILITY_MULTIPLIER = 10\nCHECK_PENALTY = 50\nclass ImprovedAlphaBetaAI():",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "QUEEN_VALUE",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "QUEEN_VALUE = 900\nKING_VALUE = 99999\n# Constants for move ordering\nCAPTURE_BONUS = 100\nPROMOTION_BONUS = 90\nCHECK_BONUS = 50\nMOBILITY_MULTIPLIER = 10\nCHECK_PENALTY = 50\nclass ImprovedAlphaBetaAI():\n    def __init__(self, depth, time_limit=10):",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "KING_VALUE",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "KING_VALUE = 99999\n# Constants for move ordering\nCAPTURE_BONUS = 100\nPROMOTION_BONUS = 90\nCHECK_BONUS = 50\nMOBILITY_MULTIPLIER = 10\nCHECK_PENALTY = 50\nclass ImprovedAlphaBetaAI():\n    def __init__(self, depth, time_limit=10):\n        self.max_depth = depth",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "CAPTURE_BONUS",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "CAPTURE_BONUS = 100\nPROMOTION_BONUS = 90\nCHECK_BONUS = 50\nMOBILITY_MULTIPLIER = 10\nCHECK_PENALTY = 50\nclass ImprovedAlphaBetaAI():\n    def __init__(self, depth, time_limit=10):\n        self.max_depth = depth\n        self.nodes_visited = 0\n        self.time_limit = time_limit",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "PROMOTION_BONUS",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "PROMOTION_BONUS = 90\nCHECK_BONUS = 50\nMOBILITY_MULTIPLIER = 10\nCHECK_PENALTY = 50\nclass ImprovedAlphaBetaAI():\n    def __init__(self, depth, time_limit=10):\n        self.max_depth = depth\n        self.nodes_visited = 0\n        self.time_limit = time_limit\n        self.transposition_table = {}  # Store positions and their evaluations",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "CHECK_BONUS",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "CHECK_BONUS = 50\nMOBILITY_MULTIPLIER = 10\nCHECK_PENALTY = 50\nclass ImprovedAlphaBetaAI():\n    def __init__(self, depth, time_limit=10):\n        self.max_depth = depth\n        self.nodes_visited = 0\n        self.time_limit = time_limit\n        self.transposition_table = {}  # Store positions and their evaluations\n        self.move_history = {}  # Store move scores from previous iterations",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "MOBILITY_MULTIPLIER",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "MOBILITY_MULTIPLIER = 10\nCHECK_PENALTY = 50\nclass ImprovedAlphaBetaAI():\n    def __init__(self, depth, time_limit=10):\n        self.max_depth = depth\n        self.nodes_visited = 0\n        self.time_limit = time_limit\n        self.transposition_table = {}  # Store positions and their evaluations\n        self.move_history = {}  # Store move scores from previous iterations\n        self.start_time = None",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "CHECK_PENALTY",
+        "kind": 5,
+        "importPath": "ImprovedAlphaBetaAI",
+        "description": "ImprovedAlphaBetaAI",
+        "peekOfCode": "CHECK_PENALTY = 50\nclass ImprovedAlphaBetaAI():\n    def __init__(self, depth, time_limit=10):\n        self.max_depth = depth\n        self.nodes_visited = 0\n        self.time_limit = time_limit\n        self.transposition_table = {}  # Store positions and their evaluations\n        self.move_history = {}  # Store move scores from previous iterations\n        self.start_time = None\n    def choose_move(self, board):",
+        "detail": "ImprovedAlphaBetaAI",
+        "documentation": {}
+    },
+    {
+        "label": "IterativeDeepeningAI",
+        "kind": 6,
+        "importPath": "IterativeDeepeningAI",
+        "description": "IterativeDeepeningAI",
+        "peekOfCode": "class IterativeDeepeningAI(): \n    # Constants for evaluation\n    PAWN_VALUE = 1\n    KNIGHT_VALUE = 3\n    BISHOP_VALUE = 3\n    ROOK_VALUE = 5\n    QUEEN_VALUE = 9\n    KING_VALUE = 99999\n    CENTRAL_PAWN_BONUS = 20\n    MOBILITY_BONUS = 0.1",
+        "detail": "IterativeDeepeningAI",
+        "documentation": {}
+    },
+    {
+        "label": "MinimaxAI",
+        "kind": 6,
+        "importPath": "MinimaxAI",
+        "description": "MinimaxAI",
+        "peekOfCode": "class MinimaxAI(): \n    # Constants for evaluation\n    PAWN_VALUE = 1\n    KNIGHT_VALUE = 3\n    BISHOP_VALUE = 3\n    ROOK_VALUE = 5\n    QUEEN_VALUE = 9\n    KING_VALUE = 99999\n    CENTRAL_PAWN_BONUS = 20\n    MOBILITY_BONUS = 0.1",
+        "detail": "MinimaxAI",
+        "documentation": {}
+    },
+    {
+        "label": "QuiescenceAI",
+        "kind": 6,
+        "importPath": "QuiescenceAI",
+        "description": "QuiescenceAI",
+        "peekOfCode": "class QuiescenceAI:\n    # Define constants for magic numbers\n    CHECKMATE_SCORE = 10000\n    STALEMATE_SCORE = 0\n    PIECE_VALUES = {\n        chess.PAWN: 1,\n        chess.KNIGHT: 3,\n        chess.BISHOP: 3,\n        chess.ROOK: 5,\n        chess.QUEEN: 9,",
+        "detail": "QuiescenceAI",
+        "documentation": {}
+    },
+    {
+        "label": "RandomAI",
+        "kind": 6,
+        "importPath": "RandomAI",
+        "description": "RandomAI",
+        "peekOfCode": "class RandomAI():\n    def __init__(self):\n        pass\n    def choose_move(self, board):\n        moves = list(board.legal_moves)\n        move = random.choice(moves)\n        sleep(1)   # I'm thinking so hard.\n        print(\"Random AI recommending move \" + str(move))\n        return move",
+        "detail": "RandomAI",
+        "documentation": {}
+    },
+    {
+        "label": "ChessGui",
+        "kind": 6,
+        "importPath": "gui_chess",
+        "description": "gui_chess",
+        "peekOfCode": "class ChessGui:\n    def __init__(self, player1, player2):\n        self.player1 = player1\n        self.player2 = player2\n        self.game = ChessGame(player1, player2)\n        self.app = QApplication(sys.argv)\n        self.svgWidget = QtSvg.QSvgWidget()\n        self.svgWidget.setGeometry(50, 50, 400, 400)\n        self.svgWidget.show()\n    def start(self):",
+        "detail": "gui_chess",
+        "documentation": {}
+    },
+    {
+        "label": "player1",
+        "kind": 5,
+        "importPath": "test_chess",
+        "description": "test_chess",
+        "peekOfCode": "player1 = MinimaxAI(depth=3)\nplayer2 = EnhancedQAI(depth=3)\ngame = ChessGame(player1, player2)\nwhile not game.is_game_over():\n    print(game)\n    game.make_move()\nprint(game)  # Print the final board state\nprint(game.get_result())\n# print(hash(str(game.board)))",
+        "detail": "test_chess",
+        "documentation": {}
+    },
+    {
+        "label": "player2",
+        "kind": 5,
+        "importPath": "test_chess",
+        "description": "test_chess",
+        "peekOfCode": "player2 = EnhancedQAI(depth=3)\ngame = ChessGame(player1, player2)\nwhile not game.is_game_over():\n    print(game)\n    game.make_move()\nprint(game)  # Print the final board state\nprint(game.get_result())\n# print(hash(str(game.board)))",
+        "detail": "test_chess",
+        "documentation": {}
+    },
+    {
+        "label": "game",
+        "kind": 5,
+        "importPath": "test_chess",
+        "description": "test_chess",
+        "peekOfCode": "game = ChessGame(player1, player2)\nwhile not game.is_game_over():\n    print(game)\n    game.make_move()\nprint(game)  # Print the final board state\nprint(game.get_result())\n# print(hash(str(game.board)))",
+        "detail": "test_chess",
+        "documentation": {}
+    }
+]

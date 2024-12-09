@@ -1,0 +1,243 @@
+[
+    {
+        "label": "FoxProblem",
+        "importPath": "FoxProblem",
+        "description": "FoxProblem",
+        "isExtraImport": true,
+        "detail": "FoxProblem",
+        "documentation": {}
+    },
+    {
+        "label": "FoxProblem",
+        "importPath": "FoxProblem",
+        "description": "FoxProblem",
+        "isExtraImport": true,
+        "detail": "FoxProblem",
+        "documentation": {}
+    },
+    {
+        "label": "bfs_search",
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "isExtraImport": true,
+        "detail": "uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "dfs_search",
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "isExtraImport": true,
+        "detail": "uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "ids_search",
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "isExtraImport": true,
+        "detail": "uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "bfs_search",
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "isExtraImport": true,
+        "detail": "uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "dfs_path_checking",
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "isExtraImport": true,
+        "detail": "uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "iterative_deepening_search",
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "isExtraImport": true,
+        "detail": "uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "SearchSolution",
+        "importPath": "SearchSolution",
+        "description": "SearchSolution",
+        "isExtraImport": true,
+        "detail": "SearchSolution",
+        "documentation": {}
+    },
+    {
+        "label": "FoxProblem",
+        "kind": 6,
+        "importPath": "submission.FoxProblem",
+        "description": "submission.FoxProblem",
+        "peekOfCode": "class FoxProblem:\n    def __init__(self, start_state):\n        self.start_state = start_state\n        self.goal_state = (0, 0, 0)\n        # Store total number of chickens and foxes\n        self.total_chickens = start_state[0]\n        self.total_foxes = start_state[1]\n    def get_successors(self, state):\n        \"\"\"\n        Generate all valid successor states from the current state.",
+        "detail": "submission.FoxProblem",
+        "documentation": {}
+    },
+    {
+        "label": "SearchSolution",
+        "kind": 6,
+        "importPath": "submission.SearchSolution",
+        "description": "submission.SearchSolution",
+        "peekOfCode": "class SearchSolution:\n    def __init__(self, problem, search_method):\n        self.problem_name = str(problem)\n        self.search_method = search_method\n        self.path = []\n        self.nodes_visited = 0\n    def __str__(self):\n        string = \"----\\n\"\n        string += \"{:s}\\n\"\n        string += \"attempted with search method {:s}\\n\"",
+        "detail": "submission.SearchSolution",
+        "documentation": {}
+    },
+    {
+        "label": "problem331",
+        "kind": 5,
+        "importPath": "submission.foxes",
+        "description": "submission.foxes",
+        "peekOfCode": "problem331 = FoxProblem((3, 3, 1))\nproblem541 = FoxProblem((5, 4, 1))\nproblem551 = FoxProblem((5, 5, 1))\n# Run the searches.\n#  Each of the search algorithms should return a SearchSolution object,\n#  even if the goal was not found. If goal not found, len() of the path\n#  in the solution object should be 0.\nprint(bfs_search(problem331))\nprint(dfs_search(problem331))\nprint(ids_search(problem331))",
+        "detail": "submission.foxes",
+        "documentation": {}
+    },
+    {
+        "label": "problem541",
+        "kind": 5,
+        "importPath": "submission.foxes",
+        "description": "submission.foxes",
+        "peekOfCode": "problem541 = FoxProblem((5, 4, 1))\nproblem551 = FoxProblem((5, 5, 1))\n# Run the searches.\n#  Each of the search algorithms should return a SearchSolution object,\n#  even if the goal was not found. If goal not found, len() of the path\n#  in the solution object should be 0.\nprint(bfs_search(problem331))\nprint(dfs_search(problem331))\nprint(ids_search(problem331))\nprint(bfs_search(problem541))",
+        "detail": "submission.foxes",
+        "documentation": {}
+    },
+    {
+        "label": "problem551",
+        "kind": 5,
+        "importPath": "submission.foxes",
+        "description": "submission.foxes",
+        "peekOfCode": "problem551 = FoxProblem((5, 5, 1))\n# Run the searches.\n#  Each of the search algorithms should return a SearchSolution object,\n#  even if the goal was not found. If goal not found, len() of the path\n#  in the solution object should be 0.\nprint(bfs_search(problem331))\nprint(dfs_search(problem331))\nprint(ids_search(problem331))\nprint(bfs_search(problem541))\nprint(dfs_search(problem541))",
+        "detail": "submission.foxes",
+        "documentation": {}
+    },
+    {
+        "label": "SearchNode",
+        "kind": 6,
+        "importPath": "submission.uninformed_search",
+        "description": "submission.uninformed_search",
+        "peekOfCode": "class SearchNode:\n    \"\"\"\n    Each SearchNode wraps a state object and keeps track of the path.\n    It contains a reference to its parent node and the action taken to reach this state.\n    \"\"\"\n    def __init__(self, state, parent=None, action=None, cost=0):\n        self.state = state        # The current state\n        self.parent = parent      # Parent SearchNode (None for root)\n        self.action = action      # Action taken to reach this state\n        self.cost = cost          # Cumulative cost to reach this state (useful for informed search)",
+        "detail": "submission.uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "backchain",
+        "kind": 2,
+        "importPath": "submission.uninformed_search",
+        "description": "submission.uninformed_search",
+        "peekOfCode": "def backchain(node):\n    \"\"\"\n    Reconstructs the path from the start state to the given node.\n    \"\"\"\n    path = []\n    while node:\n        path.append(node.state)\n        node = node.parent\n    path.reverse()\n    return path",
+        "detail": "submission.uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "bfs_search",
+        "kind": 2,
+        "importPath": "submission.uninformed_search",
+        "description": "submission.uninformed_search",
+        "peekOfCode": "def bfs_search(search_problem):\n    start_state = search_problem.start_state\n    root = SearchNode(state=start_state)\n    frontier = deque([root])  # Queue for BFS\n    visited = set()\n    solution = SearchSolution(search_problem, \"BFS\")\n    while frontier:\n        node = frontier.popleft()\n        state = node.state\n        if state in visited:",
+        "detail": "submission.uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "dfs_search",
+        "kind": 2,
+        "importPath": "submission.uninformed_search",
+        "description": "submission.uninformed_search",
+        "peekOfCode": "def dfs_search(search_problem, node=None, solution=None, path=None):\n    if node is None:\n        node = SearchNode(search_problem.start_state)\n        solution = SearchSolution(search_problem, \"DFS\")\n        path = set()\n    solution.nodes_visited += 1\n    if search_problem.is_goal_state(node.state):\n        solution.path = backchain(node)\n        return solution\n    # Path checking: avoid cycles by checking the current path",
+        "detail": "submission.uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "ids_search",
+        "kind": 2,
+        "importPath": "submission.uninformed_search",
+        "description": "submission.uninformed_search",
+        "peekOfCode": "def ids_search(search_problem, depth_limit=100):\n    solution = SearchSolution(search_problem, \"IDS\")\n    for depth in range(depth_limit):\n        path = set()\n        node = SearchNode(search_problem.start_state)\n        result = dls_search(search_problem, node, solution, path, depth)\n        if result and result.path:\n            return result  # Goal found\n    # No solution found within the depth limit\n    return solution",
+        "detail": "submission.uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "dls_search",
+        "kind": 2,
+        "importPath": "submission.uninformed_search",
+        "description": "submission.uninformed_search",
+        "peekOfCode": "def dls_search(search_problem, node, solution, path, limit):\n    solution.nodes_visited += 1\n    if search_problem.is_goal_state(node.state):\n        solution.path = backchain(node)\n        return solution\n    if limit <= 0:\n        return solution  # Return solution even if limit is reached\n    if node.state in path:\n        return solution  # Return solution to continue searching other branches\n    path.add(node.state)",
+        "detail": "submission.uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "FoxProblem",
+        "kind": 6,
+        "importPath": "FoxProblem",
+        "description": "FoxProblem",
+        "peekOfCode": "class FoxProblem:\n    def __init__(self, start_state=(3, 3, 1)):\n        self.start_state = start_state\n        self.goal_state = (0, 0, 0)\n        self.total_chickens = start_state[0]\n        self.total_foxes = start_state[1]\n    def get_successors(self, state):\n        successors = []\n        chickens, foxes, boat = state\n        # If the boat is on the starting side",
+        "detail": "FoxProblem",
+        "documentation": {}
+    },
+    {
+        "label": "test_fox_problem",
+        "kind": 2,
+        "importPath": "foxes_test",
+        "description": "foxes_test",
+        "peekOfCode": "def test_fox_problem():\n    problem = FoxProblem((3, 3, 1))  \n    print(\"Testing Breadth-First Search:\")\n    bfs_solution = bfs_search(problem)\n    print(\"BFS solution:\", bfs_solution)\n    print(\"BFS solution length:\", len(bfs_solution) if bfs_solution else \"No solution found\")\n    print(\"\\nTesting Depth-First Search (Path Checking):\")\n    dfs_solution = dfs_path_checking(problem)\n    print(\"DFS solution:\", dfs_solution)\n    print(\"DFS solution length:\", len(dfs_solution) if dfs_solution else \"No solution found\")",
+        "detail": "foxes_test",
+        "documentation": {}
+    },
+    {
+        "label": "bfs_search",
+        "kind": 2,
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "peekOfCode": "def bfs_search(problem):\n    start = problem.start_state\n    if problem.goal_test(start):\n        return [start]\n    visited = set([start])\n    queue = deque([(start, [])])\n    while queue:\n        state, path = queue.popleft()\n        for successor in problem.get_successors(state):\n            if successor not in visited:",
+        "detail": "uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "dfs_path_checking",
+        "kind": 2,
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "peekOfCode": "def dfs_path_checking(problem, state=None, path=None):\n    if state is None:\n        state = problem.start_state\n    if path is None:\n        path = []\n    if problem.goal_test(state):\n        return path + [state]\n    for successor in problem.get_successors(state):\n        if successor not in path:\n            result = dfs_path_checking(problem, successor, path + [state])",
+        "detail": "uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "iterative_deepening_search",
+        "kind": 2,
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "peekOfCode": "def iterative_deepening_search(problem):\n    depth = 0\n    while True:\n        result = depth_limited_search(problem, depth)\n        if result is not None:\n            return result\n        depth += 1\ndef depth_limited_search(problem, depth_limit, state=None, path=None):\n    if state is None:\n        state = problem.start_state",
+        "detail": "uninformed_search",
+        "documentation": {}
+    },
+    {
+        "label": "depth_limited_search",
+        "kind": 2,
+        "importPath": "uninformed_search",
+        "description": "uninformed_search",
+        "peekOfCode": "def depth_limited_search(problem, depth_limit, state=None, path=None):\n    if state is None:\n        state = problem.start_state\n    if path is None:\n        path = []\n    if problem.goal_test(state):\n        return path + [state]\n    if len(path) == depth_limit:\n        return None\n    for successor in problem.get_successors(state):",
+        "detail": "uninformed_search",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,716 @@
+[
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "CSP",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSPSolver",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "create_generic_csp",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSP",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSPSolver",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "create_generic_csp",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSP",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSPSolver",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSP",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSPSolver",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "create_generic_csp",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSP",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSPSolver",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSPSolver",
+        "importPath": "csp",
+        "description": "csp",
+        "isExtraImport": true,
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "CircuitBoard",
+        "importPath": "circuit_board",
+        "description": "circuit_board",
+        "isExtraImport": true,
+        "detail": "circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "importPath": "circuit_board",
+        "description": "circuit_board",
+        "isExtraImport": true,
+        "detail": "circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "MapColoringCSP",
+        "importPath": "map_coloring",
+        "description": "map_coloring",
+        "isExtraImport": true,
+        "detail": "map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "kind": 6,
+        "importPath": "BONUS_circuit_board",
+        "description": "BONUS_circuit_board",
+        "peekOfCode": "class Component:\n    def __init__(self, name: str, shape_matrix: List[List[bool]]):\n        \"\"\"\n        Initialize component with name and shape matrix\n        shape_matrix: 2D list of booleans where True indicates presence of component\n        \"\"\"\n        self.name = name\n        self.shape_matrix = shape_matrix\n        self.height = len(shape_matrix)\n        self.width = len(shape_matrix[0]) if self.height > 0 else 0",
+        "detail": "BONUS_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "CircuitBoard",
+        "kind": 6,
+        "importPath": "BONUS_circuit_board",
+        "description": "BONUS_circuit_board",
+        "peekOfCode": "class CircuitBoard:\n    def __init__(self, width: int, height: int, components: List[Component]):\n        self.width = width\n        self.height = height\n        self.components = components\n        self.solution = None\n        self.use_symmetry_breaking = True\n        self.use_mrv = True\n        self.use_degree = True\n        self.use_lcv = True",
+        "detail": "BONUS_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_shapes",
+        "kind": 2,
+        "importPath": "BONUS_circuit_board",
+        "description": "BONUS_circuit_board",
+        "peekOfCode": "def test_shapes():\n    \"\"\"Test various component shapes\"\"\"\n    tests = [\n        # Test 1: Basic shapes\n        {\n            \"name\": \"Basic Shapes\",\n            \"board\": (4, 4),\n            \"components\": [\n                Component(\"L\", [[True, False],\n                              [True, True]]),",
+        "detail": "BONUS_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "n_queens_csp",
+        "kind": 2,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "def n_queens_csp(n: int) -> CSP:\n    variables = [f\"Q{i}\" for i in range(n)]\n    domains = {var: set(range(n)) for var in variables}\n    def no_conflict(q1_row, q2_row, q1_col, q2_col):\n        return q1_row != q2_row and abs(q1_row - q2_row) != abs(q1_col - q2_col) and q1_col != q2_col\n    constraints = []\n    for i in range(n):\n        for j in range(i + 1, n):\n            constraints.append((f\"Q{i}\", f\"Q{j}\", lambda r1, r2, i=i, j=j: no_conflict(r1, r2, i, j)))\n    return create_generic_csp(variables, domains, constraints)",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "n = 4  \ncsp = n_queens_csp(n)\nsolver = CSPSolver(csp)\nsolution = solver.backtrack()\nif solution:\n    print(\"Solution found:\")\n    board = [['.' for _ in range(n)] for _ in range(n)]\n    for col, val in enumerate(solution):\n        board[val][col] = 'Q'\n    for row in board:",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "csp",
+        "kind": 5,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "csp = n_queens_csp(n)\nsolver = CSPSolver(csp)\nsolution = solver.backtrack()\nif solution:\n    print(\"Solution found:\")\n    board = [['.' for _ in range(n)] for _ in range(n)]\n    for col, val in enumerate(solution):\n        board[val][col] = 'Q'\n    for row in board:\n        print(' '.join(row))",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "solver",
+        "kind": 5,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "solver = CSPSolver(csp)\nsolution = solver.backtrack()\nif solution:\n    print(\"Solution found:\")\n    board = [['.' for _ in range(n)] for _ in range(n)]\n    for col, val in enumerate(solution):\n        board[val][col] = 'Q'\n    for row in board:\n        print(' '.join(row))\nelse:",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "solution",
+        "kind": 5,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "solution = solver.backtrack()\nif solution:\n    print(\"Solution found:\")\n    board = [['.' for _ in range(n)] for _ in range(n)]\n    for col, val in enumerate(solution):\n        board[val][col] = 'Q'\n    for row in board:\n        print(' '.join(row))\nelse:\n    print(\"No solution found.\")",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "n = 8  # For 8-Queens problem\ncsp = n_queens_csp(n)\nsolver = CSPSolver(csp)\nsolution = solver.backtrack()\nif solution:\n    print(\"Solution found:\")\n    board = [['.' for _ in range(n)] for _ in range(n)]\n    for col, val in enumerate(solution):\n        board[val][col] = 'Q'\n    for row in board:",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "csp",
+        "kind": 5,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "csp = n_queens_csp(n)\nsolver = CSPSolver(csp)\nsolution = solver.backtrack()\nif solution:\n    print(\"Solution found:\")\n    board = [['.' for _ in range(n)] for _ in range(n)]\n    for col, val in enumerate(solution):\n        board[val][col] = 'Q'\n    for row in board:\n        print(' '.join(row))",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "solver",
+        "kind": 5,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "solver = CSPSolver(csp)\nsolution = solver.backtrack()\nif solution:\n    print(\"Solution found:\")\n    board = [['.' for _ in range(n)] for _ in range(n)]\n    for col, val in enumerate(solution):\n        board[val][col] = 'Q'\n    for row in board:\n        print(' '.join(row))\nelse:",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "solution",
+        "kind": 5,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "solution = solver.backtrack()\nif solution:\n    print(\"Solution found:\")\n    board = [['.' for _ in range(n)] for _ in range(n)]\n    for col, val in enumerate(solution):\n        board[val][col] = 'Q'\n    for row in board:\n        print(' '.join(row))\nelse:\n    print(\"No solution found.\")",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "SudokuCSP",
+        "kind": 6,
+        "importPath": "BONUS_sudoku",
+        "description": "BONUS_sudoku",
+        "peekOfCode": "class SudokuCSP:\n    def __init__(self, board: List[List[int]]):\n        \"\"\"Initialize Sudoku puzzle with a 9x9 board where 0 represents empty cells\"\"\"\n        self.board = board\n        self.size = 9\n        self.box_size = 3\n    def create_csp(self) -> CSP:\n        \"\"\"Convert Sudoku puzzle to CSP\"\"\"\n        # Create variables (81 cells)\n        num_variables = self.size * self.size",
+        "detail": "BONUS_sudoku",
+        "documentation": {}
+    },
+    {
+        "label": "display_board",
+        "kind": 2,
+        "importPath": "BONUS_sudoku",
+        "description": "BONUS_sudoku",
+        "peekOfCode": "def display_board(board: List[List[int]]):\n    \"\"\"Display Sudoku board in a readable format\"\"\"\n    print(\"\\n\")\n    for i in range(9):\n        if i % 3 == 0 and i != 0:\n            print(\"-\" * 21)\n        for j in range(9):\n            if j % 3 == 0 and j != 0:\n                print(\"|\", end=\" \")\n            print(board[i][j], end=\" \")",
+        "detail": "BONUS_sudoku",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "kind": 6,
+        "importPath": "circuit_board",
+        "description": "circuit_board",
+        "peekOfCode": "class Component:\n    def __init__(self, name: str, width: int, height: int):\n        self.name = name\n        self.width = width\n        self.height = height\nclass CircuitBoard:\n    def __init__(self, width: int, height: int, components: List[Component]):\n        if width <= 0 or height <= 0:\n            raise ValueError(\"Board dimensions must be positive\")\n        if not components:",
+        "detail": "circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "CircuitBoard",
+        "kind": 6,
+        "importPath": "circuit_board",
+        "description": "circuit_board",
+        "peekOfCode": "class CircuitBoard:\n    def __init__(self, width: int, height: int, components: List[Component]):\n        if width <= 0 or height <= 0:\n            raise ValueError(\"Board dimensions must be positive\")\n        if not components:\n            raise ValueError(\"Must provide at least one component\")\n        for comp in components:\n            if comp.width > width or comp.height > height:\n                raise ValueError(f\"Component {comp.name} is too large for the board\")\n        self.width = width",
+        "detail": "circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "CSP",
+        "kind": 6,
+        "importPath": "csp",
+        "description": "csp",
+        "peekOfCode": "class CSP:\n    def __init__(self, num_variables: int, domains: List[Set[int]]):\n        self.num_variables = num_variables\n        self.domains = domains\n        self.constraints: Dict[Tuple[int, int], List[Tuple[int, int]]] = {}\n    def add_constraint(self, var1: int, var2: int, allowed_pairs: List[Tuple[int, int]]):\n        \"\"\"Add constraint between two variables with allowed value pairs\"\"\"\n        if (var1, var2) not in self.constraints:\n            self.constraints[(var1, var2)] = []\n        self.constraints[(var1, var2)].extend(allowed_pairs)",
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "CSPSolver",
+        "kind": 6,
+        "importPath": "csp",
+        "description": "csp",
+        "peekOfCode": "class CSPSolver:\n    def __init__(self, csp: CSP, use_mrv=False, use_degree=False, use_lcv=False, use_ac3=True):\n        \"\"\"\n        Initialize CSP Solver with optional heuristics\n        - MRV (Minimum Remaining Values): Choose variable with fewest legal values\n        - Degree: Choose variable involved in most constraints with unassigned variables\n        - LCV (Least Constraining Value): Order domain values by how many options they eliminate\n        - AC3: Arc consistency \n        \"\"\"\n        self.csp = csp",
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "create_generic_csp",
+        "kind": 2,
+        "importPath": "csp",
+        "description": "csp",
+        "peekOfCode": "def create_generic_csp(variables: List[str], domains: Dict[str, Set[int]], constraints: List[Tuple[str, str, Callable]]) -> CSP:\n    \"\"\"Create CSP from variables, domains and constraints\"\"\"\n    var_index = {var: idx for idx, var in enumerate(variables)}\n    csp = CSP(len(variables), [domains[var] for var in variables])\n    for var1, var2, constraint in constraints:\n        allowed_pairs = [(val1, val2) for val1 in domains[var1] for val2 in domains[var2] if constraint(val1, val2)]\n        csp.add_constraint(var_index[var1], var_index[var2], allowed_pairs)\n    return csp",
+        "detail": "csp",
+        "documentation": {}
+    },
+    {
+        "label": "MapColoringCSP",
+        "kind": 6,
+        "importPath": "map_coloring",
+        "description": "map_coloring",
+        "peekOfCode": "class MapColoringCSP(CSP):\n    def __init__(self, regions: List[str], neighbors: List[Tuple[str, str]], colors: List[str]):\n        # Create index mapping once\n        self.region_index = {region: idx for idx, region in enumerate(regions)}\n        self.colors = colors\n        # Initialize domains as sets for more efficient operations\n        domains = [{i for i in range(len(colors))} for _ in regions]\n        super().__init__(len(regions), domains)\n        # Pre-compute valid color pairs once\n        color_pairs = [(i, j) for i in range(len(colors)) for j in range(len(colors)) if i != j]",
+        "detail": "map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_basic_layout",
+        "kind": 2,
+        "importPath": "test_circuit_board",
+        "description": "test_circuit_board",
+        "peekOfCode": "def test_basic_layout():\n    \"\"\"Test basic rectangular components layout\"\"\"\n    print(\"\\n=== Test Case: Basic Layout ===\")\n    components = [\n        Component(\"A\", 2, 2),  # 2x2 square\n        Component(\"B\", 2, 1),  # 2x1 rectangle\n        Component(\"C\", 1, 2)   # 1x2 rectangle\n    ]\n    board = CircuitBoard(4, 4, components)\n    if board.solve():",
+        "detail": "test_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_perfect_fit",
+        "kind": 2,
+        "importPath": "test_circuit_board",
+        "description": "test_circuit_board",
+        "peekOfCode": "def test_perfect_fit():\n    \"\"\"Test case where components exactly fill the board\"\"\"\n    print(\"\\n=== Test Case: Perfect Fit ===\")\n    components = [\n        Component(\"A\", 2, 2),\n        Component(\"B\", 2, 2),\n        Component(\"C\", 2, 2),\n        Component(\"D\", 2, 2)\n    ]\n    board = CircuitBoard(4, 4, components)",
+        "detail": "test_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_impossible_fit",
+        "kind": 2,
+        "importPath": "test_circuit_board",
+        "description": "test_circuit_board",
+        "peekOfCode": "def test_impossible_fit():\n    \"\"\"Test case where components cannot fit on the board\"\"\"\n    print(\"\\n=== Test Case: Impossible Fit ===\")\n    components = [\n        Component(\"A\", 3, 3),\n        Component(\"B\", 3, 3)\n    ]\n    board = CircuitBoard(4, 4, components)\n    if board.solve():\n        board.display_solution()",
+        "detail": "test_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_single_component",
+        "kind": 2,
+        "importPath": "test_circuit_board",
+        "description": "test_circuit_board",
+        "peekOfCode": "def test_single_component():\n    \"\"\"Test case with a single component\"\"\"\n    print(\"\\n=== Test Case: Single Component ===\")\n    components = [Component(\"A\", 2, 3)]\n    board = CircuitBoard(3, 4, components)\n    if board.solve():\n        board.display_solution()\n    else:\n        print(\"No solution found!\")\ndef test_linear_arrangement():",
+        "detail": "test_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_linear_arrangement",
+        "kind": 2,
+        "importPath": "test_circuit_board",
+        "description": "test_circuit_board",
+        "peekOfCode": "def test_linear_arrangement():\n    \"\"\"Test case with components that must be arranged linearly\"\"\"\n    print(\"\\n=== Test Case: Linear Arrangement ===\")\n    components = [\n        Component(\"A\", 1, 2),\n        Component(\"B\", 1, 2),\n        Component(\"C\", 1, 2)\n    ]\n    board = CircuitBoard(1, 6, components)\n    if board.solve():",
+        "detail": "test_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_performance_comparison",
+        "kind": 2,
+        "importPath": "test_circuit_board",
+        "description": "test_circuit_board",
+        "peekOfCode": "def test_performance_comparison():\n    \"\"\"Compare performance with different heuristic combinations\"\"\"\n    print(\"\\n=== Performance Comparison ===\")\n    components = [\n        Component(\"A\", 2, 2),\n        Component(\"B\", 2, 1),\n        Component(\"C\", 1, 2),\n        Component(\"D\", 1, 1)\n    ]\n    board_size = (4, 4)",
+        "detail": "test_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_edge_cases",
+        "kind": 2,
+        "importPath": "test_circuit_board",
+        "description": "test_circuit_board",
+        "peekOfCode": "def test_edge_cases():\n    \"\"\"Test various edge cases\"\"\"\n    print(\"\\n=== Test Edge Cases ===\")\n    # Test 1: Empty component list (should raise ValueError)\n    print(\"\\nTest 1: Empty component list\")\n    try:\n        CircuitBoard(4, 4, [])\n        print(\"Failed: Should have raised ValueError\")\n    except ValueError:\n        print(\"Passed: Correctly raised ValueError\")",
+        "detail": "test_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_heuristic_configurations",
+        "kind": 2,
+        "importPath": "test_circuit_board",
+        "description": "test_circuit_board",
+        "peekOfCode": "def test_heuristic_configurations():\n    \"\"\"Test different heuristic configurations with various board layouts\"\"\"\n    print(\"\\n=== Heuristic Configuration Tests ===\")\n    test_cases = [\n        {\n            'name': \"Complex Layout\",\n            'components': [\n                Component(\"A\", 3, 2),\n                Component(\"B\", 2, 2),\n                Component(\"C\", 1, 3),",
+        "detail": "test_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_comprehensive_heuristics",
+        "kind": 2,
+        "importPath": "test_circuit_board",
+        "description": "test_circuit_board",
+        "peekOfCode": "def test_comprehensive_heuristics():\n    \"\"\"Test different heuristic and inference combinations with various board layouts\"\"\"\n    print(\"\\n=== Comprehensive Heuristic Testing ===\")\n    test_cases = [\n        {\n            'name': \"Simple Layout\",\n            'board_size': (4, 4),\n            'components': [\n                Component(\"A\", 2, 2),\n                Component(\"B\", 2, 1),",
+        "detail": "test_circuit_board",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_europe",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_europe():\n    \"\"\"\n    Test a simplified map of Western Europe\n    Expected solution: Any valid 4-coloring where no adjacent countries share colors\n    \"\"\"\n    print(\"\\n=== Test Case: Western Europe Map ===\")\n    print(\"Configuration: 7 countries, 4 colors\")\n    regions = ['France', 'Germany', 'Italy', 'Spain', 'Portugal', 'Belgium', 'Netherlands']\n    neighbors = [\n        ('France', 'Germany'), ('France', 'Italy'), ('France', 'Spain'),",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_small",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_small():\n    \"\"\"\n    Test a small map with minimal regions\n    Expected solution: Any valid coloring where no adjacent regions share colors\n    Possible solution:\n    A: red\n    B: blue\n    C: red\n    \"\"\"\n    print(\"\\n=== Test Case: Simple Linear Map ===\")",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_cycle",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_cycle():\n    \"\"\"\n    Test a cyclic map arrangement\n    Expected solution: Requires at least 3 colors\n    Possible solution:\n    A: red\n    B: blue\n    C: green\n    D: red\n    \"\"\"",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_complete",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_complete():\n    \"\"\"\n    Test a complete graph where every region is adjacent to every other region\n    Expected solution: Requires exactly 4 colors (no solution with 3 colors)\n    \"\"\"\n    print(\"\\n=== Test Case: Complete Graph ===\")\n    print(\"Configuration: 4 regions, testing with 3 and 4 colors\")\n    regions = ['A', 'B', 'C', 'D']\n    neighbors = [\n        ('A', 'B'), ('A', 'C'), ('A', 'D'),",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_empty",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_empty():\n    \"\"\"Test edge case: Empty map (should succeed trivially)\"\"\"\n    print(\"\\n=== Test Case: Empty Map (Edge Case) ===\")\n    regions = []\n    neighbors = []\n    colors = ['red']\n    csp = MapColoringCSP(regions, neighbors, colors)\n    solver = CSPSolver(csp, use_mrv=True, use_degree=True)\n    solution = solver.backtrack()\n    assert solution is not None, \"Empty map should return a solution\"",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_single",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_single():\n    \"\"\"Test edge case: Single region (should succeed with one color)\"\"\"\n    print(\"\\n=== Test Case: Single Region Map (Edge Case) ===\")\n    regions = ['A']\n    neighbors = []\n    colors = ['red']\n    csp = MapColoringCSP(regions, neighbors, colors)\n    solver = CSPSolver(csp, use_mrv=True, use_degree=True)\n    solution = solver.backtrack()\n    assert solution is not None, \"Single region should be solvable\"",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_insufficient_colors",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_insufficient_colors():\n    \"\"\"Test edge case: Not enough colors for the constraints\"\"\"\n    print(\"\\n=== Test Case: Triangle Map with Insufficient Colors ===\")\n    print(\"Configuration: 3 regions, 2 colors (should fail)\")\n    regions = ['A', 'B', 'C']\n    neighbors = [('A', 'B'), ('B', 'C'), ('C', 'A')]  # Triangle needs 3 colors\n    colors = ['red', 'blue']  # Only 2 colors provided\n    csp = MapColoringCSP(regions, neighbors, colors)\n    solver = CSPSolver(csp, use_mrv=True, use_degree=True)\n    solution = solver.backtrack()",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_disconnected",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_disconnected():\n    \"\"\"Test case: Disconnected regions (multiple components)\"\"\"\n    print(\"\\n=== Test Case: Disconnected Map (Two components with 3 regions each) ===\")\n    regions = ['A', 'B', 'C', 'D', 'E', 'F']\n    neighbors = [\n        ('A', 'B'), ('B', 'C'),  # Component 1\n        ('D', 'E'), ('E', 'F')   # Component 2\n    ]\n    colors = ['red', 'blue']\n    csp = MapColoringCSP(regions, neighbors, colors)",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_australia",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_australia():\n    \"\"\"\n    Test the classic Australia map coloring problem\n    Known to be solvable with 3 colors\n    \"\"\"\n    print(\"\\n=== Test Case: Australia Map Coloring ===\")\n    print(\"Configuration: 7 regions, 3 colors\")\n    regions = ['WA', 'NT', 'SA', 'Q', 'NSW', 'V', 'T']\n    neighbors = [\n        ('WA', 'NT'), ('WA', 'SA'), ('NT', 'SA'), ('NT', 'Q'),",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_with_configurations",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_with_configurations(test_name, regions, neighbors, colors):\n    \"\"\"\n    Test map coloring with different solver configurations and compare performance\n    \"\"\"\n    print(f\"\\n=== {test_name} ===\")\n    print(f\"Regions: {len(regions)}, Colors: {len(colors)}\")\n    # Test configurations\n    configs = [\n        (\"Basic (No heuristics/inference)\", False, False, False, False),\n        (\"MRV only\", True, False, False, False),",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "test_map_coloring_usa",
+        "kind": 2,
+        "importPath": "test_map_coloring",
+        "description": "test_map_coloring",
+        "peekOfCode": "def test_map_coloring_usa():\n    \"\"\"\n    Test a simplified map of the United States\n    Expected solution: Any valid 4-coloring where no adjacent states share colors\n    \"\"\"\n    print(\"\\n=== Test Case: United States Map ===\")\n    print(\"Configuration: 11 states, 4 colors\")\n    regions = ['CA', 'NV', 'OR', 'WA', 'ID', 'AZ', 'UT', 'NM', 'CO', 'WY', 'MT']\n    neighbors = [\n        ('CA', 'OR'), ('CA', 'NV'), ('CA', 'AZ'),",
+        "detail": "test_map_coloring",
+        "documentation": {}
+    }
+]

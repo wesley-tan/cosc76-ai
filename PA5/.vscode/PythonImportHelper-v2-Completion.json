@@ -1,0 +1,171 @@
+[
+    {
+        "label": "SAT",
+        "importPath": "SAT",
+        "description": "SAT",
+        "isExtraImport": true,
+        "detail": "SAT",
+        "documentation": {}
+    },
+    {
+        "label": "SAT",
+        "importPath": "SAT",
+        "description": "SAT",
+        "isExtraImport": true,
+        "detail": "SAT",
+        "documentation": {}
+    },
+    {
+        "label": "SAT",
+        "importPath": "SAT",
+        "description": "SAT",
+        "isExtraImport": true,
+        "detail": "SAT",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Sudoku",
+        "importPath": "Sudoku",
+        "description": "Sudoku",
+        "isExtraImport": true,
+        "detail": "Sudoku",
+        "documentation": {}
+    },
+    {
+        "label": "Sudoku",
+        "importPath": "Sudoku",
+        "description": "Sudoku",
+        "isExtraImport": true,
+        "detail": "Sudoku",
+        "documentation": {}
+    },
+    {
+        "label": "display_sudoku_solution",
+        "importPath": "display",
+        "description": "display",
+        "isExtraImport": true,
+        "detail": "display",
+        "documentation": {}
+    },
+    {
+        "label": "random,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random.",
+        "description": "random.",
+        "detail": "random.",
+        "documentation": {}
+    },
+    {
+        "label": "generate_map_coloring_cnf",
+        "kind": 2,
+        "importPath": "BONUS_map_coloring",
+        "description": "BONUS_map_coloring",
+        "peekOfCode": "def generate_map_coloring_cnf(regions, adjacencies, num_colors, filename):\n    \"\"\"Generate CNF file for Map Coloring problem\n    Args:\n        regions: List of region names\n        adjacencies: List of tuples (region1, region2) representing adjacent regions\n        num_colors: Number of colors to use\n        filename: Output CNF filename\n    \"\"\"\n    with open(filename, 'w') as f:\n        # Each region must have at least one color",
+        "detail": "BONUS_map_coloring",
+        "documentation": {}
+    },
+    {
+        "label": "generate_nqueens_cnf",
+        "kind": 2,
+        "importPath": "BONUS_nqueens",
+        "description": "BONUS_nqueens",
+        "peekOfCode": "def generate_nqueens_cnf(n, filename):\n    \"\"\"Generate CNF file for N-Queens problem\"\"\"\n    with open(filename, 'w') as f:\n        # Each row must have exactly one queen\n        for row in range(1, n+1):\n            # At least one queen in each row\n            positions = [str(row*100 + col) for col in range(1, n+1)]\n            f.write(' '.join(positions) + '\\n')\n            # No two queens in same row\n            for col1 in range(1, n+1):",
+        "detail": "BONUS_nqueens",
+        "documentation": {}
+    },
+    {
+        "label": "SAT",
+        "kind": 6,
+        "importPath": "SAT",
+        "description": "SAT",
+        "peekOfCode": "class SAT:\n    def __init__(self, cnf_filename: str):\n        self.variables: Set[int] = set()\n        self.clauses: List[List[int]] = []\n        self.assignment: Dict[int, bool] = {}\n        self.best_assignment: Dict[int, bool] = {}\n        self.best_satisfied_count: int = 0\n        # Optimization: Track which clauses each variable appears in\n        self.var_to_clauses: Dict[int, List[int]] = defaultdict(list)\n        self.load_cnf(cnf_filename)",
+        "detail": "SAT",
+        "documentation": {}
+    },
+    {
+        "label": "Sudoku",
+        "kind": 6,
+        "importPath": "Sudoku",
+        "description": "Sudoku",
+        "peekOfCode": "class Sudoku:\n    def __init__(self):\n        self.numbers = [[0 for i in range(9)] for j in range(9)]\n    def load(self, filename):\n        f = open(filename, \"r\")\n        r = 1\n        for line in f:\n            c = 1\n            # each line contains a row\n            for s in line.split():",
+        "detail": "Sudoku",
+        "documentation": {}
+    },
+    {
+        "label": "display_sudoku_solution",
+        "kind": 2,
+        "importPath": "display",
+        "description": "display",
+        "peekOfCode": "def display_sudoku_solution(filename):\n    test_sudoku = Sudoku()\n    test_sudoku.read_solution(filename)\n    print(test_sudoku)\nif __name__ == \"__main__\":\n    display_sudoku_solution(sys.argv[1])",
+        "detail": "display",
+        "documentation": {}
+    }
+]
